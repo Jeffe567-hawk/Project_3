@@ -1,0 +1,14 @@
+h1,
+h2,
+h3 {
+  font-family: cursive;
+  text-indent:20px;
+}
+
+th{
+  background-color: green;
+  color: white;
+}
+
+tr:nth-child(even){
+background-color: #f2f2f2}
