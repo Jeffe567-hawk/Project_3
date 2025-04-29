@@ -34,3 +34,46 @@ nav ul li a {
   margin: 10px;
   color: green;
 }
+
+@media (min-width 600px) {
+  nav ul {
+    flex-direction: row;
+    width:100%
+  }
+  p {
+    text-align: left;
+  }
+  h1 {
+    font-size:20px;
+  }
+  img {
+    max-width: 85%
+    max-height: 85%
+  }
+  h2 {
+    font-size:17px;
+  }
+  
+  
+}
+
+@media (min-width 900px) {
+  p {
+    text-align: center;
+    font-size: 22px;
+  }
+  h1 {
+    font-size:30px;
+  }
+  img {
+    max-width: 110%;
+    max-height: 110%;
+  }
+  h2 {
+    font-size:26px;
+  }
+  body {
+    max width:1000px
+    background-color: tan;
+  }
+}
