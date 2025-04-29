@@ -30,7 +30,7 @@ nav ul {
 
 nav ul li a {
   display: block;
-  background-color: blue;
+  background-color:cyan;
   margin: 10px;
   color: green;
 }
