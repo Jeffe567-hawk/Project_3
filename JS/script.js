@@ -22,4 +22,10 @@ function myMap() {
   marker.addListener("click", () => {
     infoWindow.open(map, marker);
   });
+}
+
+var image = document.getElementById("image");
+image.onclick = function(e) {
+  window.alert("You clicked the image");
+  window.location.href = "page3,html";
 }  
