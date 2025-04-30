@@ -12,4 +12,14 @@ function myMap() {
     title: "White Soxs",
   });
   }
+  
+  const trafficLayer = new google.maps.TrafficLayer();
+  trafficLayer.setMap(map);
+  
+  const infoWindow = new google.maps.InfoWindow({
+    content: "<h2>White Sox</h2><p>This is the White Sox Stadium.</p>",
+  });
+  marker.addListener("click", () => {
+    infoWindow.open(map, marker);
+  });
 }  
