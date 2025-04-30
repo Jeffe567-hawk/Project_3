@@ -1,6 +1,9 @@
+let map;
+
 function myMap() {
   const location = { lat:41.8299, lng: 87.6337};
-  
+  const { Map } = await google.maps.importLibrary("maps");
+  const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
   
   const map = new google.maps.Map(document.getElementById("map"),{
   zoom:12,
