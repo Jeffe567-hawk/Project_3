@@ -9,7 +9,7 @@
   <script src="JS/script.js" defer></script>
   <style>
   body {
-  background-image:url(image/rezeroBG.png);
+  background-image:url("image/rezeroBG.png");
   }
   p {
   color:orange;
@@ -33,7 +33,35 @@
   </header>
   <main id="rezero">
     <h1 style="color:purple">Favorite Media</h1>
-    <img class="imageR" src="images/Rezero.jpg" alt="Cover image of ReZero">
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="Rezero.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="rezeroBG.png" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="Rezero3.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    
+  <br>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
     <p>I have a lot of media that I watch and play, but one of my most favorite media that I watch is ReZero. ReZero is an anime where the main permise is the main character named Subaru goes to a different world and has the power where the main character returns from death and returns to a checkpoint.</p>
     <p>There are a lot of things I like about the anime like the characters, the music, the animation, and the story.
     <h2>Story</h2>
